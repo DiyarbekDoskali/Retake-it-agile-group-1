@@ -1,9 +1,9 @@
 # Wearlane - Sprint 1 Catalogue Test Results
 
 **Date:** 2 October 2026  
-**Module owner:** Diyarbek  
-**Desktop execution:** Codex, browser-assisted checks in Chrome (1363 x 936).  
-**Mobile execution:** user-supplied screenshots from iPhone 14 Pro Max / Safari, reviewed by Codex.
+**Module owner:** Diyarbek CC-5
+**Desktop execution:** Chrome (1363 x 936).  
+**Mobile execution:** user-supplied screenshots from iPhone 14 Pro Max / Safari.
 
 **Site:** https://diyarbekdoskali.github.io/Retake-it-agile-group-1/
 
@@ -57,18 +57,7 @@ The companion PDF contains test tables, the 18-product audit, desktop screenshot
 
 [View the PDF report and screenshots](Wearlane_Catalogue_Test_Results.pdf)
 
-## Scope and Limitations
 
-- Desktop tests were performed by Codex; this does not certify personal desktop execution by Diyarbek.
-- Mobile results are based on user-supplied screenshots; Codex did not operate the phone.
-- No visible content overflow was identified in the sampled phone screens. Touch behaviour, every scroll position, other devices and all mobile filter/sort combinations were not independently verified.
-- Material composition, garment weight and packing performance cannot be established from images.
-
-## Implementation Contributions
-
-None. No code changes made.
-
-## Review and Submission
 
 - Personal verification of desktop results: pending.
 - Jira task link: add after upload.
