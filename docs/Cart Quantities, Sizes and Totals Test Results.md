@@ -53,7 +53,7 @@ None. No code changes made.
 
 ## Review and Submission
 
-- Personal verification of desktop results: pending.
+- Personal verification of desktop results: Done.
 - Jira task link: [https://ue-germany-team-st01y82u.atlassian.net/jira/software/projects/CC/boards/35/backlog?selectedIssue=CC-6]
 - Reviewer feedback: pending.
 - Sprint 1 cart demonstration: pending.
