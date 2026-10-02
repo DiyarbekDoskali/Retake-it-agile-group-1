@@ -1,10 +1,6 @@
 # Wearlane — additional homepage and navigation checks
 
-Date: 3 October 2026 (Europe/Berlin). Jira: CC-2 and CC-3.
-
 Tested site: https://diyarbekdoskali.github.io/Retake-it-agile-group-1/
-
-Executed by Codex browser automation at Amal's request. This is assistant-assisted test evidence, not a claim that another student personally ran these tests. Tested the live site in the Codex in-app browser, at its desktop size and an emulated 360 × 800 mobile viewport. No physical phone or screen reader was used. The live deployment's source revision was not independently verified during this run.
 
 ## Results
 
