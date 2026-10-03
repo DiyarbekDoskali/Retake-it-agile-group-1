@@ -2,6 +2,10 @@
 
 Review date: 3 October 2026. Reviewer: Codex assisting Amal. Baseline: shared main `04dfffc87fb036bc169b30357457a979134b2198`.
 
+Scope correction, 3 October: full checkout/payment/confirmation are planned for Sprint 2, as clarified by Amal. They are not automatically Sprint 1 blockers. The unresolved Sprint 1 question is each member's actual implemented contribution, including the baseline to be agreed under CC-7. The earlier recommendation to integrate the full checkout before Sprint 1 was too broad and is superseded here.
+
+Documentation hub: [project and process records](SPRINT_1_PROJECT_DOCUMENTATION.md), [contribution evidence](SPRINT_1_CONTRIBUTION_EVIDENCE.md), [technical setup](TECHNICAL_SETUP.md), [test-record index](SPRINT_1_TEST_REGISTER.md). These documents distinguish observed facts, submitted claims and proposed working agreements; they are not fabricated meeting minutes or PO approval.
+
 This is a current review, not retrospective meeting minutes or approval by the Product Owner. It supersedes the older handover's statements that the app was only local and had not been pushed. The shared repository and GitHub Pages site now exist.
 
 ## Corrections made
@@ -33,18 +37,18 @@ The tested preview was `http://127.0.0.1:5174/`, using a fresh production build.
 | Xiaoshan — CC-4/8 | [Accounts](REGISTRATION_LOGIN_TESTS_.md), five screenshots and CC-8 | Account work is now present. PO priorities, acceptance decision and technical contribution still need their own evidence. |
 | Diyarbek — CC-5 | [Catalogue](catalogue-test-results.md), [PDF](Wearlane_Catalogue_Test_Results.pdf) | Report records 25 passed cases. Its personal verification/reviewer/demo pending entries require owner follow-up. |
 | Lourdes — CC-6 | [Expanded cart report](Cart%20Quantities%2C%20Sizes%20and%20Totals%20Test%20Results.md) | Records 13 passing cases; personal verification Done is preserved as the contributor's statement. Reviewer/demo entries still pending. |
-| Stanley/Chidi — CC-7 | [Checkout review](CHECKOUT_INTEGRATION_REVIEW.md) | Actual checkout source/tests are missing from shared main. Integration must happen before claiming a working checkout. |
+| Stanley/Chidi — CC-7 | [Checkout review](CHECKOUT_INTEGRATION_REVIEW.md) | ODT uploaded; its two images show product/cart, not checkout. Full checkout is Sprint 2. Actual Sprint 1 baseline/contribution evidence still needs confirmation. |
 
-Latest Jira check: CC-4 and its new account-testing subtask CC-8 are In Progress. CC-8 has Xiaoshan's test description, report link and five attachments. CC-5 is In Progress and Diyarbek has posted his own test summary/report link; the comment still contains the placeholder “Pass/Fail based on your checks,” which he should replace with his actual result. CC-6 is In Progress and CC-7 is To Do. Existing statuses and teammate-authored comments are preserved by this review.
+Earlier Jira check: CC-4 and its account-testing subtask CC-8 were In Progress; CC-8 contained Xiaoshan's record and five attachments. Diyarbek's CC-5 comment contained a placeholder outcome needing owner confirmation. Follow-up check on 3 October: CC-1, CC-4, CC-5, CC-6 and CC-7 are visible as In Progress in Sprint 1. CC-7 is no longer To Do. The sprint still offers Add dates and Start sprint; 0 estimate points are displayed. These checks do not change task states or prove acceptance. GitHub showed main `9070c3e`, no README and zero version tags before this documentation update.
 
 ## Before recording / submission
 
-- Obtain and integrate Stanley's missing checkout code; otherwise show the unfinished state honestly. Every student's Sprint 1 segment must demonstrate meaningful implemented progress, not just a plan or tests of another person's code.
+- Confirm Stanley's actual Sprint 1 baseline and technical contribution with source/evidence links. Full checkout remains Sprint 2. Every student's Sprint 1 segment must demonstrate meaningful implemented progress, not just a plan or tests of another person's code.
 - PO/team records actual scope, Product Goal, priorities and acceptance/remaining gaps. No approval is inferred from this document.
 - Use actual sprint dates/goals, capacity, estimates and selected work. Do not backdate Jira events or reconstruct fictitious history.
 - Link the reports in Confluence. Required records also include team/module ownership, DoR/DoD, technical setup, actual planning/check-ins/refinement/review/retrospective notes and a risk register. Each member documents their own work.
-- The assignment requires a README with setup instructions or a Confluence link; it is currently absent after the requested deletion. Restoration needs the user's resolution of that earlier instruction.
-- Create a Sprint 1 version tag on the final reviewed shared commit; do not tag an unverified checkout integration as accepted.
+- The assignment requires a README with setup instructions or a Confluence link. Amal explicitly requested on 3 October that it remain deleted for now. It has not been restored; the requirement remains unmet even though a separate technical setup guide now exists.
+- Create a Sprint 1 version tag on the final reviewed shared commit, identifying only the actual increment and known limitations; a tag does not imply all final-project features are complete.
 - Record all five members personally presenting with webcams on for their segments. Keep the video within 30 minutes. Submit through the lecturer's actual channel by 3 October; exact time/channel is not verified here.
 
 ## Proposed recording order (not a claim a recording exists)
@@ -53,7 +57,7 @@ Latest Jira check: CC-4 and its new account-testing subtask CC-8 are In Progress
 2. Xiaoshan: Product Goal/priorities, actual acceptance decision, accounts implementation and tests.
 3. Diyarbek: catalogue/search/filter/detail contribution, tests and GitHub/Jira evidence.
 4. Lourdes: cart/size/quantity/totals contribution, calculation example and tests.
-5. Stanley: actual integrated checkout progress, tests and remaining gaps.
+5. Stanley: actual agreed Sprint 1 contribution and its evidence, plus checkout work planned for Sprint 2. Do not demonstrate unavailable functionality as completed.
 6. Team: actual review findings, retrospective actions with owners, Sprint 2 changes and risks.
 
 Suggested allocation: about 4 minutes per member plus 4 minutes shared wrap-up, leaving buffer below 30 minutes. This review is not a guarantee of assessment success.
