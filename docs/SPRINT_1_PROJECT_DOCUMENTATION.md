@@ -1,6 +1,6 @@
 # Wearlane — Sprint 1 documentation hub
 
-Prepared 3 October 2026 by Codex assisting Amal. Status: evidence-backed project snapshot plus clearly marked proposals and records awaiting source material. Not a record of meetings that have not been evidenced, and not Product Owner approval.
+Prepared 3 October 2026. Status: evidence-backed project snapshot plus clearly marked proposals and records awaiting source material. Not a record of meetings that have not been evidenced, and not Product Owner approval.
 
 Publication update, 3 October: Jira's Docs tab identifies **ecsz** as this project's connected Confluence space. A new [Wearlane documentation and evidence page](https://ue-germany-team-st01y82u.atlassian.net/wiki/spaces/E/pages/34766850/Wearlane+-+Sprint+1+documentation+and+evidence) has been published there, linking the evidence package and including project/role, working-agreement, technical, risk and delivery sections. The pre-existing untitled draft was left untouched. Publication does not fill the missing actual Scrum records or student confirmations.
 

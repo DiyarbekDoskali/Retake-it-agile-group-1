@@ -1,6 +1,6 @@
 # Wearlane — Sprint 1 readiness review
 
-Review date: 3 October 2026. Reviewer: Codex assisting Amal. Baseline: shared main `04dfffc87fb036bc169b30357457a979134b2198`.
+Review date: 3 October 2026. Baseline: shared main `04dfffc87fb036bc169b30357457a979134b2198`.
 
 Scope correction, 3 October: full checkout/payment/confirmation are planned for Sprint 2, as clarified by Amal. They are not automatically Sprint 1 blockers. The unresolved Sprint 1 question is each member's actual implemented contribution, including the baseline to be agreed under CC-7. The earlier recommendation to integrate the full checkout before Sprint 1 was too broad and is superseded here.
 

@@ -1,6 +1,6 @@
 # Wearlane — Sprint 1 contribution evidence
 
-Compiled 3 October 2026 by Codex assisting Amal. This is a traceability index, not a declaration of equal contributions, personal authorship of all code, or assessment acceptance. Original contributor reports remain intact.
+Compiled 3 October 2026. This is a traceability index, not a declaration of equal contributions, personal authorship of all code, or assessment acceptance. Original contributor reports remain intact.
 
 ## Evidence rules
 

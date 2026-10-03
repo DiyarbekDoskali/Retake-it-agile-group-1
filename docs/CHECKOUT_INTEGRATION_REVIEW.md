@@ -1,6 +1,6 @@
 # CC-7 checkout integration review — 3 October 2026
 
-Reviewer: Codex, assisting Amal. This is an integration review, not a statement of Stanley's personal implementation work.
+This is an integration review, not a statement of Stanley's personal implementation work.
 
 ## Scope correction — 3 October 2026
 
