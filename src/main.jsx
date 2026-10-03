@@ -4,6 +4,7 @@ import {products,categories,findProduct} from './products.js';
 import {money,normalEmail,filterProducts,cleanCart,changeQuantity,cartTotals,validateRegistration,readJSON,passwordHash} from './domain.js';
 import Art from './ClothingArt.jsx';
 import ProductDetail from './ProductDetail.jsx';
+import {bindMenuEscape} from './navigation.js';
 import './style.css';
 
 // Legacy internal storage keys preserve existing demo accounts and carts after the brand rename.
@@ -21,6 +22,7 @@ function App(){
   const mainRef=useRef(null), firstRender=useRef(true),totals=cartTotals(cart);
   function save(key,value,session=false){try{(session?sessionStorage:localStorage).setItem(key,JSON.stringify(value));return true;}catch{setStorageError('Browser storage is unavailable or full. Allow local storage to save accounts, carts and demo orders.');return false;}}
   useEffect(()=>{const change=()=>{setRoute(locationInfo());setMenu(false);};window.addEventListener('hashchange',change);return()=>window.removeEventListener('hashchange',change);},[]);
+  useEffect(()=>{if(!menu)return;return bindMenuEscape(window,()=>setMenu(false),()=>document.querySelector('.menu-toggle')?.focus());},[menu]);
   useEffect(()=>{window.scrollTo(0,0);if(firstRender.current){firstRender.current=false;}else mainRef.current?.focus();document.title=`${route.path==='/'?'Campus ready':route.path.split('/')[1]||'Store'} | Wearlane`;},[route]);
   useEffect(()=>{save(keys.cart,cart);},[cart]);
   useEffect(()=>{if(!notice)return;const timer=setTimeout(()=>setNotice(''),4500);return()=>clearTimeout(timer);},[notice]);
