@@ -43,4 +43,10 @@ Evidence:
 - Wearlane_QA_Register_EmailExists.jpg
 - Wearlane_QA_Register_Empty_Page.jpg
 
+![Login page with email or password incorrect error message](Wearlane_QA_Login_WrongCredential_Error.jpg)
+![Product list page after successful login](Wearlane_QA_Product_List.jpg)
+![Clean login page without error](Wearlane_QA_Login_Page.jpg)
+![Register page showing email already registered warning](Wearlane_QA_Register_EmailExists.jpg)
+![Blank register page without error](Wearlane_QA_Register_Empty_Page.jpg)
+
 Remaining issues: None found
