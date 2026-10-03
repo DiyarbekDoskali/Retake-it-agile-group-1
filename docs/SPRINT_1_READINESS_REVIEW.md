@@ -6,6 +6,8 @@ Scope correction, 3 October: full checkout/payment/confirmation are planned for 
 
 Documentation hub: [project and process records](SPRINT_1_PROJECT_DOCUMENTATION.md), [contribution evidence](SPRINT_1_CONTRIBUTION_EVIDENCE.md), [technical setup](TECHNICAL_SETUP.md), [test-record index](SPRINT_1_TEST_REGISTER.md). These documents distinguish observed facts, submitted claims and proposed working agreements; they are not fabricated meeting minutes or PO approval.
 
+Publication update: a [Wearlane Confluence hub](https://ue-germany-team-st01y82u.atlassian.net/wiki/spaces/E/pages/34766850/Wearlane+-+Sprint+1+documentation+and+evidence) is now published in ecsz, the space linked by Jira's Docs tab. The earlier space-name search did not establish this connection. Existing draft content was preserved. Actual discussion sources, individual confirmations and PO/review/retro decisions remain pending.
+
 This is a current review, not retrospective meeting minutes or approval by the Product Owner. It supersedes the older handover's statements that the app was only local and had not been pushed. The shared repository and GitHub Pages site now exist.
 
 ## Corrections made
@@ -46,7 +48,7 @@ Earlier Jira check: CC-4 and its account-testing subtask CC-8 were In Progress; 
 - Confirm Stanley's actual Sprint 1 baseline and technical contribution with source/evidence links. Full checkout remains Sprint 2. Every student's Sprint 1 segment must demonstrate meaningful implemented progress, not just a plan or tests of another person's code.
 - PO/team records actual scope, Product Goal, priorities and acceptance/remaining gaps. No approval is inferred from this document.
 - Use actual sprint dates/goals, capacity, estimates and selected work. Do not backdate Jira events or reconstruct fictitious history.
-- Link the reports in Confluence. Required records also include team/module ownership, DoR/DoD, technical setup, actual planning/check-ins/refinement/review/retrospective notes and a risk register. Each member documents their own work.
+- Reports, team/module mapping, proposed DoR/DoD, technical setup and risks are now linked/summarised in Confluence. Still add actual planning/check-ins/refinement/review/retrospective notes, team adoption/PO decisions, and each member's own work confirmation. Proposals are not historical process evidence.
 - The assignment requires a README with setup instructions or a Confluence link. Amal explicitly requested on 3 October that it remain deleted for now. It has not been restored; the requirement remains unmet even though a separate technical setup guide now exists.
 - Create a Sprint 1 version tag on the final reviewed shared commit, identifying only the actual increment and known limitations; a tag does not imply all final-project features are complete.
 - Record all five members personally presenting with webcams on for their segments. Keep the video within 30 minutes. Submit through the lecturer's actual channel by 3 October; exact time/channel is not verified here.

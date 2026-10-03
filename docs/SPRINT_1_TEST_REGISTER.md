@@ -1,6 +1,6 @@
 # Wearlane — Sprint 1 test-record index
 
-Compiled 3 October 2026. This index organises existing execution records; it is not a new test run and does not attribute agent work to students. For full steps/results/evidence, follow the source report. Cases with missing metadata remain incomplete records until the executor supplies it. Publish/link this register in Confluence; a GitHub-only index is not Confluence publication.
+Compiled 3 October 2026. This index organises existing execution records; it is not a new test run and does not attribute agent work to students. For full steps/results/evidence, follow the source report. Cases with missing metadata remain incomplete records until the executor supplies it. This register is now linked from the published [Confluence hub](https://ue-germany-team-st01y82u.atlassian.net/wiki/spaces/E/pages/34766850/Wearlane+-+Sprint+1+documentation+and+evidence); linking it does not certify personal execution or close metadata gaps.
 
 ## Existing records and traceability
 

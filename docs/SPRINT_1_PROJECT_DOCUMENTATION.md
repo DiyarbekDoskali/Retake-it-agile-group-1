@@ -1,6 +1,8 @@
 # Wearlane — Sprint 1 documentation hub
 
-Prepared 3 October 2026 by Codex assisting Amal. Status: evidence-backed project snapshot plus clearly marked proposals and records awaiting source material. Not a record of meetings that have not been evidenced, and not Product Owner approval. Intended for linking from Confluence once the correct space is confirmed; GitHub documents alone do not satisfy the Confluence requirement.
+Prepared 3 October 2026 by Codex assisting Amal. Status: evidence-backed project snapshot plus clearly marked proposals and records awaiting source material. Not a record of meetings that have not been evidenced, and not Product Owner approval.
+
+Publication update, 3 October: Jira's Docs tab identifies **ecsz** as this project's connected Confluence space. A new [Wearlane documentation and evidence page](https://ue-germany-team-st01y82u.atlassian.net/wiki/spaces/E/pages/34766850/Wearlane+-+Sprint+1+documentation+and+evidence) has been published there, linking the evidence package and including project/role, working-agreement, technical, risk and delivery sections. The pre-existing untitled draft was left untouched. Publication does not fill the missing actual Scrum records or student confirmations.
 
 ## Navigation
 
@@ -60,7 +62,7 @@ These are usable proposals, not claims that the team followed them previously. R
 | Check-ins/refinement | User says discussion evidence exists, but it has not yet been supplied for this documentation update | Actual dated messages/notes, participation, splits/priorities and next actions |
 | Technical review | Codex-assisted reports and 3 October checks linked above | Separate team/PO inspection, acceptance, feedback and resulting backlog decisions |
 | Retrospective | No actual retrospective record supplied | Dated participants, what helped/hindered, agreed improvement owners/dates and prior-action review (not applicable if this is genuinely the first retro) |
-| Confluence | Correct destination not confirmed | Shared page links and each student's own contribution section |
+| Confluence | Published Wearlane page in Jira-connected ecsz space, linked above | Each student must add/confirm their own contribution records; actual discussion/review/retro records still awaiting sources |
 
 For every supplied discussion, record: event date/time/timezone; record-created date; type/channel; actual participants; source reference; concise summary; decisions; blockers; action, owner and target date. If transcribed later from real messages, explicitly label it a later transcription and retain the source reference. Redact phone numbers/private contacts; do not publish private chat screenshots to the public repository without specific consent.
 
@@ -82,7 +84,7 @@ Owners below are proposed follow-up owners based on roles; action dates/acceptan
 | --- | --- | --- | --- | --- | --- | --- |
 | R-01 | Test uploads mistaken for individual implementation evidence | High | High: individual contribution requirement | Link actual source changes, assistance and personal demonstration; obtain each owner's confirmation | Each module owner; Amal coordinates | Open |
 | R-02 | Sprint 1 and full checkout scope confused | High | High: incorrect readiness claims | Apply D-03; agree CC-7 baseline; distinguish future feature from current defect | Xiaoshan + Stanley | Open; documentation corrected |
-| R-03 | Missing dated Scrum/Confluence records | High | High: process evidence incomplete | Supply actual discussion evidence; document accurately; confirm Confluence destination | Amal + all members | Awaiting sources/destination |
+| R-03 | Missing dated Scrum records | High | High: process evidence incomplete | Supply actual discussion evidence and add accurate records to the published Confluence hub | Amal + all members | Awaiting sources; destination resolved |
 | R-04 | README remains absent | Certain | Medium: explicit repository requirement unmet | Obtain permission to restore a minimal setup/Confluence-link README | Amal | Open; kept deleted by request |
 | R-05 | Navigation fix not rechecked in a mobile-sized browser | Medium | Medium: demo/accessibility issue may remain | Repeat responsive keyboard check; save actual result/version | Amal | Open; unit checks passed |
 | R-06 | Presentation participation/submission not verified | Unknown | High: mandatory personal presentation | Confirm recording time, all five webcam segments, duration <=30 minutes and submission receipt | All members; Amal coordinates | Unverified |
@@ -94,6 +96,6 @@ Owners below are proposed follow-up owners based on roles; action dates/acceptan
 2. Xiaoshan: confirm Product Goal, priorities, Sprint 1 scope and acceptance/remaining gaps, including CC-7 baseline. Target: before the team's review closes; acceptance pending.
 3. Every member: add their own evidence statement using the contribution index, with exact source/test links and assistance disclosure. Target: before recording; not marked complete.
 4. Diyarbek/Lourdes: reconcile personal verification/reviewer/demo fields with actual activity. Target: before final evidence review.
-5. Team: identify the Confluence space and publish/link this material plus actual meeting records; complete a real review/retro and tag the reviewed increment. Target: before submission; not yet verified.
+5. Team: add actual meeting records and individual confirmations to the published Confluence hub; complete a real review/retro and tag the reviewed increment. Target: before submission; not yet verified. The documentation page itself is now published.
 
 These are proposed next actions, not assigned Jira deadlines or evidence the team accepted them. No meeting, vote, attendance, estimate, review approval or completion status has been fabricated.

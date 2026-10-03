@@ -7,7 +7,7 @@ Recorded 3 October 2026 from the shared project. This is a technical guide, not 
 - [Live website](https://diyarbekdoskali.github.io/Retake-it-agile-group-1/)
 - [Shared repository](https://github.com/DiyarbekDoskali/Retake-it-agile-group-1)
 - [Jira board](https://ue-germany-team-st01y82u.atlassian.net/jira/software/projects/CC/boards/35/backlog)
-- Confluence destination: not yet confirmed.
+- [Confluence documentation hub](https://ue-germany-team-st01y82u.atlassian.net/wiki/spaces/E/pages/34766850/Wearlane+-+Sprint+1+documentation+and+evidence), published in the Jira-connected ecsz space on 3 October.
 
 Sprint 1 has clothing storefront/navigation, catalogue/search/filter/sort/details, size-aware cart and registration/login/logout. Checkout, simulated payment and order confirmation are planned for Sprint 2. This is an educational prototype, not a production shop.
 
