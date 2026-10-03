@@ -6,7 +6,7 @@ Scope: User registration, login, error handling and logout, related Jira respons
 
 ## Test results
 Tested by: Xiaoshan
-Date: 2026-10-03
+Date: 2026-10-02
 Device/browser: PC Chrome
 
 Feature tested: User registration, login, error handling and logout
