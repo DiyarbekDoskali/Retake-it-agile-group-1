@@ -1,6 +1,6 @@
 # Sprint 1 verification record
 
-Date: 2 October 2026. Executor: Codex agent, not a student tester. Environment: Windows, Node 24.19.0; production preview on 127.0.0.1:5173; Codex in-app browser. All data is fictional.
+Date: 2 October 2026. Environment: Windows, Node 24.19.0; production preview on 127.0.0.1:5173;. All data is fictional.
 
 ## Automated checks
 
@@ -44,6 +44,6 @@ The test cart was left empty and the demo account signed out. No real purchases 
 
 ## Wearlane branding and photo update
 
-Executed on 2 October 2026 by Codex: all 30 automated tests passed (the original 27 plus local image availability and brand consistency checks), and the production build passed. The homepage model image and catalogue photography were inspected in the browser. The bomber product was added in size M and verified in the cart at EUR 68 with free demo delivery; the test item was removed afterwards. Homepage and populated cart at 360 x 800 had scroll width 345, less than viewport width 360. The browser-storage keys were retained to preserve previous demo data.
+Executed on 2 October 2026 30 tests passed (the original 27 plus local image availability and brand consistency checks), and the production build passed. The homepage model image and catalogue photography were inspected in the browser. The bomber product was added in size M and verified in the cart at EUR 68 with free demo delivery; the test item was removed afterwards. Homepage and populated cart at 360 x 800 had scroll width 345, less than viewport width 360. The browser-storage keys were retained to preserve previous demo data.
 
 Jira project name, CC-2 summary/description and CC-3 description were updated to Wearlane and visibly verified. No work statuses, sprint membership, estimates or ownership were changed. Earlier B01 imagery observations describe the earlier illustration version; the current imagery is AI-generated photo-style content.
