@@ -37,9 +37,10 @@ Actual result:
 Result: Pass
 
 Evidence:
-- Wearlane_QA_Register_CreateAccount.jpg
-- Wearlane_QA_Login_Page.jpg
-- Wearlane_QA_Login_Success_ProductPage.jpg
 - Wearlane_QA_Login_WrongCredential_Error.jpg
+- Wearlane_QA_Product_List.jpg
+- Wearlane_QA_Login_Page.jpg
+- Wearlane_QA_Register_EmailExists.jpg
+- Wearlane_QA_Register_Empty_Page.jpg
 
 Remaining issues: None found
