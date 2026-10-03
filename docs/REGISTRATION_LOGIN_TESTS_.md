@@ -37,16 +37,22 @@ Actual result:
 Result: Pass
 
 Evidence:
-- Wearlane_QA_Login_WrongCredential_Error.jpg
-- Wearlane_QA_Product_List.jpg
-- Wearlane_QA_Login_Page.jpg
-- Wearlane_QA_Register_EmailExists.jpg
-- Wearlane_QA_Register_Empty_Page.jpg
+- Wearlane_QA_Login_WrongCredential_Error.jpg.png
+- Wearlane_QA_Product_List.jpg.png
+- Wearlane_QA_Login_Page.jpg.png
+- Wearlane_QA_Register_EmailExists.jpg.png
+- Wearlane_QA_Register_Empty_Page.jpg.png
 
-![Login page with email or password incorrect error message](Wearlane_QA_Login_WrongCredential_Error.jpg)
-![Product list page after successful login](Wearlane_QA_Product_List.jpg)
-![Clean login page without error](Wearlane_QA_Login_Page.jpg)
-![Register page showing email already registered warning](Wearlane_QA_Register_EmailExists.jpg)
-![Blank register page without error](Wearlane_QA_Register_Empty_Page.jpg)
+![Login page with email or password incorrect error message](Wearlane_QA_Login_WrongCredential_Error.jpg.png)
+![Product list page after successful login](Wearlane_QA_Product_List.jpg.png)
+![Clean login page without error](Wearlane_QA_Login_Page.jpg.png)
+![Register page showing email already registered warning](Wearlane_QA_Register_EmailExists.jpg.png)
+![Blank register page without error](Wearlane_QA_Register_Empty_Page.jpg.png)
 
 Remaining issues: None found
+
+## Evidence review — 3 October 2026
+
+Codex corrected the five image links to match the uploaded filenames. The tester/date/results above remain Xiaoshan's submitted record. [Jira CC-4](https://ue-germany-team-st01y82u.atlassian.net/browse/CC-4).
+
+This report covers accounts, not Product Owner approval. Product Goal, priorities and explicit acceptance/remaining gaps still need a recorded PO/team decision. A blank registration screenshot does not itself demonstrate empty-form validation. Invalid registration inputs and refresh persistence require their own test results before claiming full coverage.

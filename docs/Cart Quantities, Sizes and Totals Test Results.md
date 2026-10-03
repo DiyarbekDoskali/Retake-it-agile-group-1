@@ -9,7 +9,7 @@
 
 ## Summary
 
-12 recorded test cases: *12 passed, 0 failed* within the checked scope. No confirmed defects observed within the checked cart flows. This is not a claim that the entire application is defect-free.
+13 listed test cases (CART-01 through CART-13), all recorded as passing within the submitted report's scope. The original summary counted 12; corrected on 3 October 2026 to include CART-13. This correction is not a new test execution or a claim that the entire application is defect-free.
 
 ## Desktop Results
 
@@ -36,7 +36,16 @@
 
 ## Evidence
 
-Evidence for the cart flows was recorded through dated test steps and actual results, captured manually during the desktop and mobile test execution. No separate PDF report or screenshot file is provided in this Markdown document. 
+Repository screenshots linked during the 3 October evidence review:
+
+- [Single product](Wearlane_QA_Cart_Single_Product.jpg.png)
+- [Quantity change](Wearlane_QA_Cart_Quantity.jpg.png)
+- [Different sizes](Wearlane_QA_Cart_Sizes.jpg.png)
+- [Subtotal and total](Wearlane_QA_Cart_Total.jpg.png)
+- [Refresh](Wearlane_QA_Cart_Refreshing.jpg.png)
+- [Empty cart](Wearlane_QA_Cart_Empty.jpg.png)
+
+These are the six existing cart uploads. They are not a claim that a separate screenshot exists for every case or that phone interactions were independently reproduced.
 
 ## Scope and Limitations
 
@@ -54,6 +63,10 @@ None. No code changes made.
 ## Review and Submission
 
 - Personal verification of desktop results: Done.
-- Jira task link: [https://ue-germany-team-st01y82u.atlassian.net/jira/software/projects/CC/boards/35/backlog?selectedIssue=CC-6]
+- Jira task link: [CC-6](https://ue-germany-team-st01y82u.atlassian.net/browse/CC-6)
 - Reviewer feedback: pending.
 - Sprint 1 cart demonstration: pending.
+
+### Documentation review — 3 October 2026
+
+Codex reviewed the report, corrected its case count and linked the existing evidence. Personal verification marked Done above is preserved as the contributor's statement, not independently certified by this review. Reviewer acceptance of all criteria remains pending; do not mark the whole task Done just because links were repaired.

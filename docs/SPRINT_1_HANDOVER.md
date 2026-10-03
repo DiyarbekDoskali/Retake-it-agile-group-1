@@ -1,5 +1,7 @@
 # Sprint 1 handover — 2 October 2026
 
+Historical handover: for the current deployed state and remaining gaps, read the [3 October readiness review](SPRINT_1_READINESS_REVIEW.md). Statements below about not yet pushing/uploading refer to the original handover time, not the current repository.
+
 ## Status
 
 Wearlane is a local, runnable clothing-store prototype. The production build and 30 automated tests pass. Selected desktop and 360-pixel mobile flows have been checked in the Codex in-app browser. This is a software increment, not a completed retake submission.

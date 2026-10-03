@@ -53,13 +53,13 @@
 
 ## Evidence
 
-The companion PDF contains test tables, the 18-product audit, desktop screenshots and user-provided mobile screenshots. Upload it to the same folder as this Markdown file:
+The companion PDF is stored in the same folder and provides the report's test tables and screenshot evidence:
 
 [View the PDF report and screenshots](Wearlane_Catalogue_Test_Results.pdf)
 
 
 
 - Personal verification of desktop results: pending.
-- Jira task link: add after upload.
+- Jira task link: [CC-5](https://ue-germany-team-st01y82u.atlassian.net/browse/CC-5).
 - Reviewer feedback: pending.
 - Sprint 1 catalogue demonstration: pending.

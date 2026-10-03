@@ -1,5 +1,7 @@
 # Wearlane — Sprint 1 cart quantities, sizes and totals test results
 
+Review note, 3 October 2026: retain this earlier 10-case record as history. See the [newer cart report](Cart%20Quantities%2C%20Sizes%20and%20Totals%20Test%20Results.md) for the expanded scope. Do not add overlapping cases together as separate executions.
+
 Site: https://diyarbekdoskali.github.io/Retake-it-agile-group-1/
 
 Scope: cart quantities, product sizes, subtotal, delivery and total calculations; related Jira responsibility CC-6.
@@ -43,12 +45,12 @@ The following calculations were checked independently during the cart review:
 
 ## Evidence
 
-- [Desktop cart — single product](Wearlane_QA_Cart_Single_Product.jpg)
-- [Desktop cart — quantity change](Wearlane_QA_Cart_Quantity.jpg)
-- [Desktop cart — different sizes](Wearlane_QA_Cart_Sizes.jpg)
-- [Desktop cart — subtotal and total](Wearlane_QA_Cart_Total.jpg)
-- [Desktop cart — refreshed cart](Wearlane_QA_Cart_Refresh.jpg)
-- [Desktop cart — empty cart](Wearlane_QA_Cart_Empty.jpg)
+- [Desktop cart — single product](Wearlane_QA_Cart_Single_Product.jpg.png)
+- [Desktop cart — quantity change](Wearlane_QA_Cart_Quantity.jpg.png)
+- [Desktop cart — different sizes](Wearlane_QA_Cart_Sizes.jpg.png)
+- [Desktop cart — subtotal and total](Wearlane_QA_Cart_Total.jpg.png)
+- [Desktop cart — refreshed cart](Wearlane_QA_Cart_Refreshing.jpg.png)
+- [Desktop cart — empty cart](Wearlane_QA_Cart_Empty.jpg.png)
 
 ## Review notes
 
