@@ -1,0 +1,119 @@
+{
+  "runAt": "2026-10-15T19:52:52.562Z",
+  "executor": "Codex automated browser checks",
+  "browser": "151.0.7922.34",
+  "base": "https://diyarbekdoskali.github.io/Retake-it-agile-group-1",
+  "viewports": [
+    "1440x1000",
+    "360x800"
+  ],
+  "sourceHashes": {
+    "src/main.jsx": "ef416a69875aa3673a47a5454008e6ec3333e8b6c094bbf175b253e8517e7b45",
+    "src/Checkout.jsx": "f6aec0fbe236e0e51de59cb3bab2ad41504b713e17a497485e96591e7523e5e9",
+    "src/checkout.js": "6b55887a6f57e70b8902ee665e493eec90c7073a8d1ad45e646be1f26cac5692",
+    "src/checkout.css": "6b4b65b95eeef6a545baac0fce79ca0fa92d8bb5ee69c25faa3d86f19042c42a",
+    "src/domain.js": "f1b3a2409b4d6325e87aa6665ecc47a5495170bd14fa3a3c5adf0406f8215da9",
+    "src/products.js": "661f2639064d694d3fd57fbc4defc9ebf993ad59ba26c78d3dd75ce05e1fd3cc",
+    "src/style.css": "fd2528a1ce0818589b12479fa25489a19015dca2948451a7a797b92e35c2052d",
+    "src/navigation.js": "9c7dd05974fb97adfff62e7c4d4826db5028dfba31c2f2b7b184aa738194a081",
+    "src/ClothingArt.jsx": "65d75580eeae889547984489ecf754099f0e373f11b5e197eb5253f6b656569a",
+    "src/ProductDetail.jsx": "ccec297b96aa62f5b517d317b773e7b6d20f04900cb1d835ac20fe4ddd582a81",
+    "package.json": "59bfbe967a27968e891a5977e43e01bf233cbdaeae08c200839536d6020baf16",
+    "pnpm-lock.yaml": "7a7d5d4fd220276d603c0936191e967a2547ca21e8ba2b12aa9c445ab1c0c8d9",
+    "tests/browser/sprint2.mjs": "a7c52ec96b1267856df1572b2def695b94fe19a774a4dfb1491708353f07d0b1",
+    "tests/checkout.test.js": "5bd259f8bdd731663230edba68be1cab6c802d34cfbbb3e309840d4602866ee5"
+  },
+  "results": [
+    {
+      "id": "B01",
+      "name": "Guest checkout requires sign-in",
+      "result": "Pass"
+    },
+    {
+      "id": "B02",
+      "name": "Cart, registration and return to checkout preserve selected size",
+      "result": "Pass"
+    },
+    {
+      "id": "B03",
+      "name": "Blank delivery validation and accessible error focus",
+      "result": "Pass"
+    },
+    {
+      "id": "B04",
+      "name": "Review shows correct details and integer-cent totals",
+      "result": "Pass"
+    },
+    {
+      "id": "B05",
+      "name": "Simulated decline preserves cart and creates no order",
+      "result": "Pass"
+    },
+    {
+      "id": "B06",
+      "name": "Success and repeat click save one order and clear cart",
+      "result": "Pass"
+    },
+    {
+      "id": "B07",
+      "name": "Confirmation survives refresh without another order",
+      "result": "Pass"
+    },
+    {
+      "id": "B08",
+      "name": "Empty cart cannot be ordered",
+      "result": "Pass"
+    },
+    {
+      "id": "B09",
+      "name": "Signed-out confirmation is blocked and login returns to it",
+      "result": "Pass"
+    },
+    {
+      "id": "B10",
+      "name": "Mobile menu Escape closes and returns focus",
+      "result": "Pass"
+    },
+    {
+      "id": "B11",
+      "name": "Mobile checkout and review fit without horizontal overflow",
+      "result": "Pass"
+    },
+    {
+      "id": "B12",
+      "name": "Cross-tab cart changes block stale review",
+      "result": "Pass"
+    },
+    {
+      "id": "B13",
+      "name": "Cross-tab sign-out blocks checkout",
+      "result": "Pass"
+    },
+    {
+      "id": "B14",
+      "name": "Different customer cannot view an earlier confirmation",
+      "result": "Pass"
+    },
+    {
+      "id": "B15",
+      "name": "Catalogue filtering and sold-out product remain correct",
+      "result": "Pass"
+    },
+    {
+      "id": "B17",
+      "name": "Browser order-save failure preserves the cart and supports retry",
+      "result": "Pass"
+    },
+    {
+      "id": "B18",
+      "name": "Clearing browser data in another tab clears the visible cart and session",
+      "result": "Pass"
+    },
+    {
+      "id": "B16",
+      "name": "No uncaught browser application errors",
+      "result": "Pass"
+    }
+  ],
+  "errors": []
+}
