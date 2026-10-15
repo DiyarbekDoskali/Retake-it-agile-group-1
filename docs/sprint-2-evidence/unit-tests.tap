@@ -1,0 +1,472 @@
+TAP version 13
+# Subtest: all 18 products have local photo assets
+ok 1 - all 18 products have local photo assets
+  ---
+  duration_ms: 5.6517
+  type: 'test'
+  ...
+# Subtest: homepage model asset exists
+ok 2 - homepage model asset exists
+  ---
+  duration_ms: 0.5099
+  type: 'test'
+  ...
+# Subtest: Wearlane branding is consistent while preserving legacy stored demo data
+ok 3 - Wearlane branding is consistent while preserving legacy stored demo data
+  ---
+  duration_ms: 1.1345
+  type: 'test'
+  ...
+# Subtest: safe routes retain checkout and confirmation
+ok 4 - safe routes retain checkout and confirmation
+  ---
+  duration_ms: 1.618
+  type: 'test'
+  ...
+# Subtest: external and malformed return destinations are rejected
+ok 5 - external and malformed return destinations are rejected
+  ---
+  duration_ms: 0.213
+  type: 'test'
+  ...
+# Subtest: valid delivery details pass
+ok 6 - valid delivery details pass
+  ---
+  duration_ms: 0.8294
+  type: 'test'
+  ...
+# Subtest: blank delivery fields have clear errors
+ok 7 - blank delivery fields have clear errors
+  ---
+  duration_ms: 0.9756
+  type: 'test'
+  ...
+# Subtest: German postal codes require exactly five digits
+ok 8 - German postal codes require exactly five digits
+  ---
+  duration_ms: 0.3142
+  type: 'test'
+  ...
+# Subtest: international postal code and supported country pass
+ok 9 - international postal code and supported country pass
+  ---
+  duration_ms: 0.2678
+  type: 'test'
+  ...
+# Subtest: unknown countries and overly long delivery fields fail
+ok 10 - unknown countries and overly long delivery fields fail
+  ---
+  duration_ms: 0.2131
+  type: 'test'
+  ...
+# Subtest: consent must be explicitly true
+ok 11 - consent must be explicitly true
+  ---
+  duration_ms: 0.3654
+  type: 'test'
+  ...
+# Subtest: checkout reads trusted product prices, not stored price fields
+ok 12 - checkout reads trusted product prices, not stored price fields
+  ---
+  duration_ms: 0.5674
+  type: 'test'
+  ...
+# Subtest: delivery is free at exactly 35 euros
+ok 13 - delivery is free at exactly 35 euros
+  ---
+  duration_ms: 0.4649
+  type: 'test'
+  ...
+# Subtest: delivery is free above the threshold
+ok 14 - delivery is free above the threshold
+  ---
+  duration_ms: 0.2016
+  type: 'test'
+  ...
+# Subtest: checkout and cart use the same shared totals for every tested quantity
+ok 15 - checkout and cart use the same shared totals for every tested quantity
+  ---
+  duration_ms: 0.3952
+  type: 'test'
+  ...
+# Subtest: different clothing sizes remain distinct in the order
+ok 16 - different clothing sizes remain distinct in the order
+  ---
+  duration_ms: 0.1067
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects empty cart
+ok 17 - strict checkout rejects empty cart
+  ---
+  duration_ms: 0.2439
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects malformed cart
+ok 18 - strict checkout rejects malformed cart
+  ---
+  duration_ms: 0.0533
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects missing cart
+ok 19 - strict checkout rejects missing cart
+  ---
+  duration_ms: 0.0743
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects unknown cart
+ok 20 - strict checkout rejects unknown cart
+  ---
+  duration_ms: 0.0481
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects soldout cart
+ok 21 - strict checkout rejects soldout cart
+  ---
+  duration_ms: 0.0567
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects size cart
+ok 22 - strict checkout rejects size cart
+  ---
+  duration_ms: 0.0551
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects fraction cart
+ok 23 - strict checkout rejects fraction cart
+  ---
+  duration_ms: 0.0436
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects negative cart
+ok 24 - strict checkout rejects negative cart
+  ---
+  duration_ms: 0.0403
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects excess cart
+ok 25 - strict checkout rejects excess cart
+  ---
+  duration_ms: 0.053
+  type: 'test'
+  ...
+# Subtest: strict checkout rejects duplicate cart
+ok 26 - strict checkout rejects duplicate cart
+  ---
+  duration_ms: 0.0523
+  type: 'test'
+  ...
+# Subtest: fingerprints ignore order of lines but detect quantity changes
+ok 27 - fingerprints ignore order of lines but detect quantity changes
+  ---
+  duration_ms: 7.9507
+  type: 'test'
+  ...
+# Subtest: signed-out checkout is blocked
+ok 28 - signed-out checkout is blocked
+  ---
+  duration_ms: 0.7452
+  type: 'test'
+  ...
+# Subtest: unknown account sessions are rejected
+ok 29 - unknown account sessions are rejected
+  ---
+  duration_ms: 0.1828
+  type: 'test'
+  ...
+# Subtest: switching accounts during checkout is blocked
+ok 30 - switching accounts during checkout is blocked
+  ---
+  duration_ms: 0.1349
+  type: 'test'
+  ...
+# Subtest: successful order snapshots data, saves reference and clears cart
+ok 31 - successful order snapshots data, saves reference and clears cart
+  ---
+  duration_ms: 2.0574
+  type: 'test'
+  ...
+# Subtest: declined demo payment preserves cart and creates no order
+ok 32 - declined demo payment preserves cart and creates no order
+  ---
+  duration_ms: 0.2421
+  type: 'test'
+  ...
+# Subtest: unsupported payment method is rejected
+ok 33 - unsupported payment method is rejected
+  ---
+  duration_ms: 0.2867
+  type: 'test'
+  ...
+# Subtest: invalid delivery never writes an order
+ok 34 - invalid delivery never writes an order
+  ---
+  duration_ms: 0.1985
+  type: 'test'
+  ...
+# Subtest: repeat submission with the same intent returns the existing order
+ok 35 - repeat submission with the same intent returns the existing order
+  ---
+  duration_ms: 0.3582
+  type: 'test'
+  ...
+# Subtest: confirmation reload reads the saved order without reordering
+ok 36 - confirmation reload reads the saved order without reordering
+  ---
+  duration_ms: 0.2762
+  type: 'test'
+  ...
+# Subtest: another customer cannot read a saved order through the application
+ok 37 - another customer cannot read a saved order through the application
+  ---
+  duration_ms: 0.1544
+  type: 'test'
+  ...
+# Subtest: signed-out customer cannot read a confirmation
+ok 38 - signed-out customer cannot read a confirmation
+  ---
+  duration_ms: 0.141
+  type: 'test'
+  ...
+# Subtest: cart changes after review block ordering
+ok 39 - cart changes after review block ordering
+  ---
+  duration_ms: 0.3097
+  type: 'test'
+  ...
+# Subtest: corrupt saved cart blocks ordering
+ok 40 - corrupt saved cart blocks ordering
+  ---
+  duration_ms: 0.1493
+  type: 'test'
+  ...
+# Subtest: corrupt order history is preserved rather than overwritten
+ok 41 - corrupt order history is preserved rather than overwritten
+  ---
+  duration_ms: 0.1154
+  type: 'test'
+  ...
+# Subtest: failure to save order never clears the cart
+ok 42 - failure to save order never clears the cart
+  ---
+  duration_ms: 0.1976
+  type: 'test'
+  ...
+# Subtest: intent storage failure leaves cart and order history unchanged
+ok 43 - intent storage failure leaves cart and order history unchanged
+  ---
+  duration_ms: 2.1659
+  type: 'test'
+  ...
+# Subtest: cart-clear failure returns confirmation and safe retry without duplicate
+ok 44 - cart-clear failure returns confirmation and safe retry without duplicate
+  ---
+  duration_ms: 0.3029
+  type: 'test'
+  ...
+# Subtest: retry of an old order preserves newly added cart items
+ok 45 - retry of an old order preserves newly added cart items
+  ---
+  duration_ms: 0.1583
+  type: 'test'
+  ...
+# Subtest: a new purchase of the same items receives a new intent
+ok 46 - a new purchase of the same items receives a new intent
+  ---
+  duration_ms: 0.1401
+  type: 'test'
+  ...
+# Subtest: reference collisions do not overwrite an existing order
+ok 47 - reference collisions do not overwrite an existing order
+  ---
+  duration_ms: 0.2501
+  type: 'test'
+  ...
+# Subtest: 18 unique clothing products in three categories
+ok 48 - 18 unique clothing products in three categories
+  ---
+  duration_ms: 1.0082
+  type: 'test'
+  ...
+# Subtest: all products offer explicit clothing sizes
+ok 49 - all products offer explicit clothing sizes
+  ---
+  duration_ms: 0.217
+  type: 'test'
+  ...
+# Subtest: case insensitive trimmed search
+ok 50 - case insensitive trimmed search
+  ---
+  duration_ms: 0.1726
+  type: 'test'
+  ...
+# Subtest: search and category combine
+ok 51 - search and category combine
+  ---
+  duration_ms: 0.1559
+  type: 'test'
+  ...
+# Subtest: each category contains six products
+ok 52 - each category contains six products
+  ---
+  duration_ms: 0.3046
+  type: 'test'
+  ...
+# Subtest: unknown search is empty
+ok 53 - unknown search is empty
+  ---
+  duration_ms: 0.6766
+  type: 'test'
+  ...
+# Subtest: price sort is numeric
+ok 54 - price sort is numeric
+  ---
+  duration_ms: 0.1565
+  type: 'test'
+  ...
+# Subtest: price descending sort
+ok 55 - price descending sort
+  ---
+  duration_ms: 0.1114
+  type: 'test'
+  ...
+# Subtest: null and malformed cart rejected
+ok 56 - null and malformed cart rejected
+  ---
+  duration_ms: 0.2243
+  type: 'test'
+  ...
+# Subtest: unknown product and missing size ignored
+ok 57 - unknown product and missing size ignored
+  ---
+  duration_ms: 0.2476
+  type: 'test'
+  ...
+# Subtest: duplicate product and size lines merge
+ok 58 - duplicate product and size lines merge
+  ---
+  duration_ms: 0.2962
+  type: 'test'
+  ...
+# Subtest: different sizes remain separate
+ok 59 - different sizes remain separate
+  ---
+  duration_ms: 0.9581
+  type: 'test'
+  ...
+# Subtest: stock clamp is per size
+ok 60 - stock clamp is per size
+  ---
+  duration_ms: 0.2369
+  type: 'test'
+  ...
+# Subtest: quantity updates one size only
+ok 61 - quantity updates one size only
+  ---
+  duration_ms: 0.1966
+  type: 'test'
+  ...
+# Subtest: removing one size preserves the other
+ok 62 - removing one size preserves the other
+  ---
+  duration_ms: 0.0857
+  type: 'test'
+  ...
+# Subtest: invalid or omitted size rejected
+ok 63 - invalid or omitted size rejected
+  ---
+  duration_ms: 0.1988
+  type: 'test'
+  ...
+# Subtest: negative fractional and excessive quantity rejected
+ok 64 - negative fractional and excessive quantity rejected
+  ---
+  duration_ms: 0.1066
+  type: 'test'
+  ...
+# Subtest: out of stock clothing cannot be added
+ok 65 - out of stock clothing cannot be added
+  ---
+  duration_ms: 0.048
+  type: 'test'
+  ...
+# Subtest: integer cent totals and delivery
+ok 66 - integer cent totals and delivery
+  ---
+  duration_ms: 0.1331
+  type: 'test'
+  ...
+# Subtest: free delivery above 35 euros and size-aware count
+ok 67 - free delivery above 35 euros and size-aware count
+  ---
+  duration_ms: 0.0529
+  type: 'test'
+  ...
+# Subtest: empty cart totals are zero
+ok 68 - empty cart totals are zero
+  ---
+  duration_ms: 0.0353
+  type: 'test'
+  ...
+# Subtest: valid demo registration
+ok 69 - valid demo registration
+  ---
+  duration_ms: 0.1268
+  type: 'test'
+  ...
+# Subtest: duplicate email is case insensitive
+ok 70 - duplicate email is case insensitive
+  ---
+  duration_ms: 0.0802
+  type: 'test'
+  ...
+# Subtest: registration errors for name email password and confirmation
+ok 71 - registration errors for name email password and confirmation
+  ---
+  duration_ms: 0.0462
+  type: 'test'
+  ...
+# Subtest: password hashes are salted repeatable and not plaintext
+ok 72 - password hashes are salted repeatable and not plaintext
+  ---
+  duration_ms: 59.7765
+  type: 'test'
+  ...
+# Subtest: corrupt browser storage falls back
+ok 73 - corrupt browser storage falls back
+  ---
+  duration_ms: 0.2283
+  type: 'test'
+  ...
+# Subtest: blocked browser storage falls back
+ok 74 - blocked browser storage falls back
+  ---
+  duration_ms: 0.0755
+  type: 'test'
+  ...
+# Subtest: Escape closes an open menu and restores toggle focus
+ok 75 - Escape closes an open menu and restores toggle focus
+  ---
+  duration_ms: 0.981
+  type: 'test'
+  ...
+# Subtest: other keys keep normal navigation behaviour
+ok 76 - other keys keep normal navigation behaviour
+  ---
+  duration_ms: 0.1739
+  type: 'test'
+  ...
+# Subtest: cleanup removes the old Escape handler
+ok 77 - cleanup removes the old Escape handler
+  ---
+  duration_ms: 0.1088
+  type: 'test'
+  ...
+1..77
+# tests 77
+# suites 0
+# pass 77
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 172.4622

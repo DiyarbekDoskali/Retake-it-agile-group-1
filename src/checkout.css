@@ -1,0 +1,33 @@
+.checkout-kicker { margin-top: 36px; }
+.checkout-page > h1 { margin-bottom: 15px; }
+.checkout-steps { list-style: none; display: flex; gap: 12px; padding: 0; margin: 30px 0 0; font-size: 13px; color: var(--muted); }
+.checkout-steps li { padding: 12px 17px; border-bottom: 2px solid var(--line); }
+.checkout-steps [aria-current="step"] { border-color: var(--ink); color: var(--ink); font-weight: 700; }
+.checkout-panel { padding: 30px; background: white; border: 1px solid var(--line); border-radius: 6px; min-width: 0; }
+.checkout-panel h2 { margin-top: 0; }
+.checkout-panel .form-error { margin-bottom: 22px; }
+.checkout-panel .field select { width: 100%; }
+.checkout-submit { margin-top: 25px; }
+.checkout-items { list-style: none; padding: 0; margin: 0 0 20px; }
+.checkout-items li { display: grid; grid-template-columns: 58px minmax(0,1fr) auto; gap: 12px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 12px; }
+.checkout-items li strong { display: block; line-height: 1.5; }
+.checkout-items li span { display: block; margin-top: 4px; color: var(--muted); }
+.checkout-items li b { white-space: nowrap; }
+.delivery-review { border-block: 1px solid var(--line); padding: 20px 0; overflow-wrap: anywhere; }
+.delivery-review p { color: var(--muted); font-size: 14px; }
+.text-button { border: 0; padding: 6px 0; background: transparent; color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+.confirmation .status-pill { display: inline-block; margin-bottom: 22px; }
+.confirmation .success-mark { font-size: 35px; }
+.confirmation .order-reference { font-size: 17px; font-weight: 650; color: var(--ink); }
+.confirmation .order-box h2 { margin-top: 25px; }
+.confirmation .order-box p { overflow-wrap: anywhere; }
+.confirmation > .muted { margin-top: 25px; }
+.order-line > span { min-width: 0; overflow-wrap: anywhere; }
+.order-line strong { white-space: nowrap; }
+@media (max-width:650px) {
+  .checkout-panel { padding: 22px 18px; }
+  .checkout-steps { font-size: 11px; gap: 5px; }
+  .checkout-steps li { flex: 1; padding: 10px 7px; }
+  .checkout-items li { grid-template-columns: 48px minmax(0,1fr) auto; gap: 9px; }
+  .confirmation .order-reference { font-size: 14px; }
+}
