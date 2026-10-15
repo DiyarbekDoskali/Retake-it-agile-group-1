@@ -14,7 +14,7 @@ IT Agile Development clothing-store prototype. Sprint 2 adds a complete **demo**
 | Sprint 2 verification | [Test report](docs/SPRINT_2_TEST_RESULTS.md) |
 | Sprint 2 team actions | [Review and presentation handover](docs/SPRINT_2_TEAM_HANDOVER.md) |
 
-**Release candidate, 15 October 2026:** Sprint 2 was prepared and locally tested on top of shared commit `6ff5e11eda5111963b47f1e7b755689d2d3e1753`. Publication has been requested. Check the repository's Actions result before treating the website as the Sprint 2 release; deployment and live verification are pending in this candidate. Jira and Confluence were not changed by this implementation. This status will be updated after the actual release is verified.
+**Published and verified, 15 October 2026:** Sprint 2 is live. [Pull request #1](https://github.com/DiyarbekDoskali/Retake-it-agile-group-1/pull/1) was merged as `4ec7fd6ae3b68e8ebf5cbbf98f68d397f1744ac8`. The [GitHub Pages build and deployment succeeded](https://github.com/DiyarbekDoskali/Retake-it-agile-group-1/actions/runs/38797147327). All 77 Node tests passed before publication, and all 18 isolated browser scenarios passed against the published website. See [live verification and evidence](docs/sprint-2-live-evidence/release-verification.md). Jira/Confluence updates, personal contribution records, Product Owner acceptance and the five-member recording remain separate; publication does not establish that these activities occurred.
 
 The professor may need permission to access Jira and Confluence. The team must verify access with the professor's actual account; a link alone does not grant permission. The recording/submission link is not available in this package.
 
@@ -69,7 +69,7 @@ node tests/browser/sprint2.mjs
 - Accounts, session, cart and orders are saved in this browser's local storage. They do not transfer between devices. Use fictional details only.
 - The shared Sprint 2 session supports sign-out across tabs. Existing Sprint 1 accounts and cart remain compatible, but users must sign in again after the update.
 - Browser-local sign-in and ownership checks are not production security. A person with access to the browser can inspect or alter local data.
-- Existing Sprint 1 documents remain historical records. Use the Sprint 2 notes for the current local implementation.
+- Existing Sprint 1 documents remain historical records. Use the Sprint 2 implementation notes and live verification for this release.
 - Clothing imagery is AI-generated demo content; see [image information](docs/IMAGE_ASSETS.md).
 
 The deployment workflow tests and builds for the repository's GitHub Pages address. Do not upload credentials, real customer information or `node_modules`.
