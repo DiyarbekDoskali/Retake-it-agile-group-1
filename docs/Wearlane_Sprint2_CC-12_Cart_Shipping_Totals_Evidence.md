@@ -1,4 +1,4 @@
-Wearlane — Sprint 2 Cart, Shipping and Order Totals Test Results
+## Wearlane — Sprint 2 Cart, Shipping and Order Totals Test Results
 
 Site: https://diyarbekdoskali.github.io/Retake-it-agile-group-1/
 
