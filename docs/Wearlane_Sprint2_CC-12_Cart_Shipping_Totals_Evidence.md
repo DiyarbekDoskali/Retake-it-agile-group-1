@@ -4,7 +4,7 @@ Site: https://diyarbekdoskali.github.io/Retake-it-agile-group-1/
 
 Scope: Shopping cart, checkout summary, shipping charges, order totals and cart persistence; Jira responsibility CC-12.
 
-Summary
+## Summary
 
 Eight planned test cases cover shopping cart contents, subtotal calculations, shipping charges, checkout summary consistency, checkout failure handling and cart persistence.
 
@@ -15,7 +15,7 @@ Blocked / Not executed: To be updated after testing.
 
 The expected results are based on the CC-12 task requirements. Actual results must be recorded after testing.
 
-Desktop results
+## Desktop results
 
 ID	Steps	Expected result	Actual result	Status
 C01	Open the website, add a product to the cart and inspect the cart.	The selected product, price and quantity are displayed correctly.	To be recorded after testing.	Not executed
@@ -27,7 +27,7 @@ C06	Attempt checkout using a supported method to reproduce a checkout failure.	T
 C07	After a checkout failure, return to the cart and inspect its contents.	The products remain in the cart after checkout fails.	To be recorded after testing.	Not executed
 C08	Complete an order if supported, confirm that it has been saved successfully and return to the cart.	The cart is cleared only after the order has been saved successfully.	To be recorded after testing.	Not executed
 
-Calculation examples
+## Calculation examples
 
 Subtotal	Expected shipping	Expected total
 €20.00	€2.90	€22.90
@@ -37,28 +37,24 @@ Subtotal	Expected shipping	Expected total
 
 These examples follow the specified shipping rule: €2.90 below €35 and free shipping at or above €35.
 
-Mobile results
+## Mobile results
 
 ID	Steps	Expected result	Actual result	Status
 MC01	Open the cart on a mobile-size viewport and inspect the product information and totals.	Cart contents and monetary values remain readable and correct.	To be recorded after testing.	Not executed
 MC02	Open the checkout summary on a mobile-size viewport and compare the totals with the cart.	Product details, shipping charges and final totals are correct and readable without layout problems.	To be recorded after testing.	Not executed
 
-Evidence
+## Evidence
 
-Attach the actual screenshots captured during testing.
+![Screenshot 1 — Shopping cart](CC12_Cart.jpg)
+![Screenshot 2 — Subtotal calculation](CC12_Subtotal.jpg)
+![Screenshot 3 — Shipping below €35](CC12_Shipping_Below_35.jpg)
+![Screenshot 4 — Free shipping at €35](CC12_Free_Shipping.jpg)
+![Screenshot 5 — Continuous free shipping above 35€](CC12_Free_Shipping_Above_35.jpg)
+![Screenshot 6 — Checkout failure](CC12_Checkout_Failure.jpg)
+![Screenshot 7 — Cart after checkout failure](CC12_Cart_After_Failure.jpg)
+![Screenshot 8 — Successful order and cart state](CC12_Order_Confirmation.jpg)
 
-* Screenshot 1 — Shopping cart
-* Screenshot 2 — Subtotal calculation
-* Screenshot 3 — Shipping below €35
-* Screenshot 4 — Free shipping at €35
-* Screenshot 5 — Continuous free shipping above 35€
-* Screenshot 6 — Checkout failure
-* Screenshot 7 — Cart after checkout failure
-* Screenshot 8 — Successful order and cart state
-
-The filenames above are suggested names for the evidence images. Replace them with the actual filenames when adding the screenshots.
-
-Defects and observations
+## Defects and observations
 
 Record any unexpected behaviour discovered during testing, including incorrect calculations, missing shipping charges, inconsistent checkout totals or loss of cart contents.
 
@@ -68,7 +64,7 @@ Fixes applied: To be recorded if applicable.
 
 If a checkout failure or successful order cannot be tested because the website does not support that functionality, mark the relevant test as blocked or not executed and explain the limitation.
 
-Implementation evidence
+## Implementation evidence
 
 Jira Task: CC-12 — Cart, Shipping and Totals
 GitHub Repository: https://github.com/diyarbekdoskali/Retake-it-agile-group-1
@@ -79,7 +75,7 @@ The implementation focuses on connecting the shopping cart to the checkout summa
 
 Implementation status: To be updated after the code changes are completed.
 
-Conclusion
+## Conclusion
 
 Sprint 2 testing for CC-12 focuses on accurate shopping cart calculations, correct shipping charges, checkout summary consistency and safe cart behaviour throughout the checkout process.
 
