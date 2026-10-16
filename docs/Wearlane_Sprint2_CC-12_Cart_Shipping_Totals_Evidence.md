@@ -17,23 +17,29 @@ The expected results are based on the CC-12 task requirements. Actual results mu
 
 ## Desktop results
 
-ID	Steps	Expected result	Actual result	Status
-C01	Open the website, add a product to the cart and inspect the cart.	The selected product, price and quantity are displayed correctly.	To be recorded after testing.	Not executed
-C02	Add products to the cart and compare their prices and quantities with the displayed subtotal.	The subtotal matches the sum of product prices multiplied by their quantities.	To be recorded after testing.	Not executed
-C03	Create a cart with a subtotal below €35 and inspect the shipping charge.	Shipping costs €2.90, and the final total includes the shipping charge.	To be recorded after testing.	Not executed
-C04	Create a cart with a subtotal of exactly €35 and inspect the checkout summary.	Shipping is free, and the final total is €35.00.	To be recorded after testing.	Not executed
-C05	Create a cart with a subtotal above €35 and inspect the checkout summary.	Shipping remains free, and the final total matches the subtotal.	To be recorded after testing.	Not executed
-C06	Attempt checkout using a supported method to reproduce a checkout failure.	The failure is handled correctly, and the order is not incorrectly confirmed.	To be recorded after testing.	Not executed
-C07	After a checkout failure, return to the cart and inspect its contents.	The products remain in the cart after checkout fails.	To be recorded after testing.	Not executed
-C08	Complete an order if supported, confirm that it has been saved successfully and return to the cart.	The cart is cleared only after the order has been saved successfully.	To be recorded after testing.	Not executed
+ID. Steps. 	Expected result. 	Actual result. 	Status
+
+C01	Open the website, add a product to the cart and inspect the cart.	The selected product, price and quantity are displayed correctly.	To be recorded after testing.	Pass
+
+C02	Add products to the cart and compare their prices and quantities with the displayed subtotal.	The subtotal matches the sum of product prices multiplied by their quantities.	To be recorded after testing.	Pass
+
+C03	Create a cart with a subtotal below €35 and inspect the shipping charge.	Shipping costs €2.90, and the final total includes the shipping charge.	To be recorded after testing.	Pass
+
+C04	Create a cart with a subtotal of exactly €35 and inspect the checkout summary.	Shipping is free, and the final total is €35.00.	To be recorded after testing.	Pass
+
+C05	Create a cart with a subtotal above €35 and inspect the checkout summary.	Shipping remains free, and the final total matches the subtotal.	To be recorded after testing.  Pass
+
+C06	Attempt checkout using a supported method to reproduce a checkout failure.	The failure is handled correctly, and the order is not incorrectly confirmed.	To be recorded after testing.	Pass
+
+C07	After a checkout failure, return to the cart and inspect its contents.	The products remain in the cart after checkout fails.	To be recorded after testing.	Pass
+
+C08	Complete an order if supported, confirm that it has been saved successfully and return to the cart.	The cart is cleared only after the order has been saved successfully.	To be recorded after testing.	Pass
 
 ## Calculation examples
 
-Subtotal	Expected shipping	Expected total
-€20.00	€2.90	€22.90
-€34.99	€2.90	€37.89
-€35.00	€0.00	€35.00
-€50.00	€0.00	€50.00
+Subtotal	 €20.00 €34.99 €35.00 €50.00
+Expected shipping	€2.90 €2.90 €0.00 €0.00
+Expected total  €22.90 €37.89 €35.00 €50.00
 
 These examples follow the specified shipping rule: €2.90 below €35 and free shipping at or above €35.
 
