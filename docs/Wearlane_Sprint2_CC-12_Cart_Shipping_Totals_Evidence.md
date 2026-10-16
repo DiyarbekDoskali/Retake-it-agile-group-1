@@ -49,21 +49,21 @@ These examples follow the specified shipping rule: €2.90 for orders below €3
 
 ## Evidence
 
-![Screenshot 1 — Shopping cart](CC12_Cart.jpg)
+![Screenshot 1 — Shopping cart](CC12_Cart.png)
 
-![Screenshot 2 — Subtotal calculation](CC12_Subtotal.jpg)
+![Screenshot 2 — Subtotal calculation](CC12_Subtotal.png)
 
-![Screenshot 3 — Shipping below €35](CC12_Shipping_Below_35.jpg)
+![Screenshot 3 — Shipping below €35](CC12_Shipping_Below_35.png)
 
-![Screenshot 4 — Free shipping at €35](CC12_Free_Shipping.jpg)
+![Screenshot 4 — Free shipping at €35](CC12_Free_Shipping.png)
 
-![Screenshot 5 — Continuous free shipping above 35€](CC12_Free_Shipping_Above_35.jpg)
+![Screenshot 5 — Continuous free shipping above 35€](CC12_Free_Shipping_Above_35.png)
 
-![Screenshot 6 — Checkout failure](CC12_Checkout_Failure.jpg)
+![Screenshot 6 — Checkout failure](CC12_Checkout_Failure.png)
 
-![Screenshot 7 — Cart after checkout failure](CC12_Cart_After_Failure.jpg)
+![Screenshot 7 — Cart after checkout failure](CC12_Cart_After_Failure.png)
 
-![Screenshot 8 — Successful order and cart state](CC12_Order_Confirmation.jpg)
+![Screenshot 8 — Successful order and cart state](CC12_Order_Confirmation.png)
 
 ## Defects and observations
 
