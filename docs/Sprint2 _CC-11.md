@@ -1,4 +1,4 @@
-# Individual Product and Validation Review — Diyarbek
+# Sprint 2 Individual Product and Validation Review — Diyarbek Doskali 
 
 **Date:** 17 October 2026  
 **Environment:** Google Chrome, Windows PC  
