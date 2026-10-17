@@ -13,17 +13,25 @@
 **Actual:** “Please select a size before adding to your cart.”  
 **Result:** PASS.
 
+<img width="1561" height="826" alt="Missing size" src="https://github.com/user-attachments/assets/b887b76d-398b-4cef-ba72-2f11f620ca7c" />
+
 ### 2. Stock limit
 **Steps:** Select size M, add the product and increase its quantity to 10.  
 **Expected:** The quantity cannot exceed the size’s stock limit of 10.  
 **Actual:** Quantity reached 10 and the increase button was disabled.  
 **Result:** PASS.
 
+<img width="1917" height="878" alt="Not more than 10" src="https://github.com/user-attachments/assets/30ea6538-10cc-404d-bf68-e04eae987fa5" />
+
+
 ### 3. Sold-out product
 **Steps:** Open Studio cropped hoodie.  
 **Expected:** The product shows its sold-out status and cannot be added to the cart.  
 **Actual:** “Currently out of stock” was displayed with a disabled Sold out button.  
 **Result:** PASS.
+
+<img width="1893" height="912" alt="sold out" src="https://github.com/user-attachments/assets/944bcc7a-0612-43ba-82d2-a9b7e766fdca" />
+
 
 ### 4. Valid checkout and saved item details
 **Steps:** Complete checkout for two Everyday heavyweight tees in size M, using fictional delivery details and successful simulated payment.  
@@ -39,6 +47,8 @@
 
 **Result:** PASS.
 
+<img width="1904" height="902" alt="Order confirmed after refreshing page" src="https://github.com/user-attachments/assets/26dd9c52-1916-4b34-b77b-b897da1a9ecf" />
+
 ### 5. Confirmation refresh
 **Steps:** Refresh the saved confirmation page.  
 **Expected:** The order reference and saved item details remain unchanged.  
@@ -46,6 +56,8 @@
 
 **Order reference:** WL-F42E5379-0F06-46AA-AC03-4E082A3FE74B  
 **Result:** PASS.
+
+<img width="1904" height="902" alt="Order confirmed after refreshing page" src="https://github.com/user-attachments/assets/9e59aee5-a12c-4470-b319-4649aa880c18" />
 
 ## Automated Validation Checks
 
@@ -59,6 +71,9 @@ The tests cover unknown products, unavailable sizes, sold-out items, fractional,
 
 **Result:** PASS.
 
+<img width="1913" height="1014" alt="Test Passed" src="https://github.com/user-attachments/assets/aed5e000-0c36-406d-aac9-10eb87c326bd" />
+
+
 ## Catalogue Price Validation
 
 **Reviewed test:** “checkout reads trusted product prices, not stored price fields” in `tests/checkout.test.js`.
@@ -70,6 +85,9 @@ The tests cover unknown products, unavailable sizes, sold-out items, fractional,
 This test passed in my local execution.
 
 **Result:** PASS.
+
+<img width="1878" height="999" alt="test price catalogue" src="https://github.com/user-attachments/assets/71d8e68a-0f5f-4a6b-b858-5665049bb51a" />
+
 
 ## My Contribution
 
@@ -95,3 +113,5 @@ The confirmation refresh result was also checked manually.
 2. Show the successful order confirmation and refresh it.
 3. Show the 44 passing checkout tests.
 4. Explain how the price-validation test checks that catalogue prices override supplied cart prices.
+
+
