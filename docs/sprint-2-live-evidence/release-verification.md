@@ -25,4 +25,5 @@ The exact run time, public target URL, browser version, viewport sizes, source f
 
 The screenshots and results here are automated release evidence, not evidence that each team member personally tested the project. Original local test evidence remains in `docs/sprint-2-evidence/`.
 
-The final documentation uploads may have commits later than the application commit above. They do not change application code. No Jira statuses or Confluence pages were changed by publication. The team still needs genuine personal contribution evidence, Product Owner review, the required five-member recording and submission by the course's exact 17 October deadline. Professor access to private Jira/Confluence resources must be checked separately.
+
+
