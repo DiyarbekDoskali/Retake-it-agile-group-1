@@ -51,21 +51,30 @@ These examples follow the specified shipping rule: €2.90 for orders below €3
 
 Attach the actual screenshots captured during testing.
 
+## Screenshot 1 — Shopping cart
 ![Shopping Cart](Shopping%20Cart.png)
 
+## Screenshot 2 — Subtotal calculation
 ![Subtotal calculation](Subtotal%20calculation.png)
 
+## Screenshot 3 — Shipping below €35
 ![Shipping below €35](Shipping%20below%2035€.png)
 
+##  Screenshot 4 — Free shipping at €35
 ![Free shipping at €35](Free%20shipping%20at%2035€.png)
 
+## Screenshot 5 — Continuous free shipping above €35
 ![Continuous free shipping above 35€](Continuous%20free%20shipping%20above%2035€.png)
 
+## Screenshot 6 — Checkout failure
 ![Checkout failure](Checkout%20failure.png)
 
+### Screenshot 7 — Cart after checkout failure
 ![Cart after checkout failure](Cart%20after%20Checkout%20failure.png)
 
+### Screenshot 8 — Successful order and cart state
 ![Successful order and cart state](Successful%20order%20and%20cart%20state.png)
+
 ## Defects and observations
 
 Record any unexpected behaviour discovered during testing, including incorrect calculations, missing shipping charges, inconsistent checkout totals or loss of cart contents.
