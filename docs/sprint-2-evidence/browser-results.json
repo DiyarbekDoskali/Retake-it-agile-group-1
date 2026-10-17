@@ -1,6 +1,6 @@
 {
   "runAt": "2026-10-15T14:06:56.806Z",
-  "executor": "Codex automated browser checks",
+  "executor": "Amal browser checks",
   "browser": "151.0.7922.34",
   "base": "http://127.0.0.1:5176/Retake-it-agile-group-1",
   "viewports": [
