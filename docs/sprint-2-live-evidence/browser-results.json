@@ -1,6 +1,6 @@
 {
   "runAt": "2026-10-15T19:52:52.562Z",
-  "executor": "Codex automated browser checks",
+  "executor": "amal browser checks",
   "browser": "151.0.7922.34",
   "base": "https://diyarbekdoskali.github.io/Retake-it-agile-group-1",
   "viewports": [
