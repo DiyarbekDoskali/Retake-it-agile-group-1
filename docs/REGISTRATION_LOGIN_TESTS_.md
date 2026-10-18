@@ -56,3 +56,22 @@ Remaining issues: None found
 Codex corrected the five image links to match the uploaded filenames. The tester/date/results above remain Xiaoshan's submitted record. [Jira CC-4](https://ue-germany-team-st01y82u.atlassian.net/browse/CC-4).
 
 This report covers accounts, not Product Owner approval. Product Goal, priorities and explicit acceptance/remaining gaps still need a recorded PO/team decision. A blank registration screenshot does not itself demonstrate empty-form validation. Invalid registration inputs and refresh persistence require their own test results before claiming full coverage.
+
+# Product Acceptance Test - CC-10
+Tester: Xiaoshan Zhou
+Date: 18 Oct 2026
+Browser: Google Chrome
+Test account: xiaoshan.test@demo.com
+
+| Acceptance Criteria | Test Steps | Expected Result | Actual Result | Pass/Fail | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 1. A signed-out visitor opening checkout is asked to sign in; no order can be placed while signed out. | Log out, add product to cart and click checkout. | Redirect to login page, unable to submit order. | After click checkout, redirected to login page, cannot access checkout without login. | Pass | |
+| 2. Sign-in and registration return to the intended internal checkout route, preserving cart items and sizes. | Add product to cart, go to checkout, then log in. | After login, return to checkout page, cart items remain. | Login succeeded, redirected back to checkout, cart items and sizes kept. | Pass | |
+| 3. The session is checked again at order placement; signing out in another tab prevents a stale session from completing an order. | Tab A stays at checkout page, log out account in Tab B, go back to Tab A and try to submit the order. | Order submission blocked, session invalid, cannot finish order. | After logging out in Tab B, Tab A can still submit the order successfully. The session does not get re-validated on order placement. | Fail | Defect found: Session recheck missing on order submission. User can still place order with stale session. This is a blocking issue. |
+| 4. Check that the confirmation view belongs to the current demo account. Document that local browser storage is not production-grade authentication or security. | Complete checkout until confirmation page. | Confirm page shows current test user. Local storage only for demo, not production security. | Confirmation page displays current demo account. Local browser storage only for demo purpose, not production-ready security. | Pass | Demo security note: Local browser storage used for demo only. Not production ready. |
+| 5. Personally review the Sprint 2 acceptance criteria and record accepted / not accepted, reasons, and remaining priorities. | Review all criteria above. | Record all pass/fail status. | Reviewed all 6 criteria, recorded pass/fail results. | Pass | Remaining priority: Fix AC3 session validation defect. |
+| 6. Add evidence for your checks and prepare your own Product Owner presentation segment. | Capture screenshots and prepare presentation video. | All screenshots saved, video script ready. | All screenshots captured, presentation script finished. | Pass | |
+![Unauthorized checkout redirect](sprint-2-live-evidence/Wearlane_QA_Checkout_Unauthorized_Redirect.jpg)
+![Cart preserved after login](sprint-2-live-evidence/Wearlane_QA_Checkout_Cart_Preserved.jpg)
+![Session defect when submitting order](sprint-2-live-evidence/Wearlane_QA_Checkout_Session_Defect.jpg)
+![Order confirmation page](sprint-2-live-evidence/Wearlane_QA_Checkout_Confirmation_Page.jpg)
