@@ -1,0 +1,9 @@
+Sprint 3 session retest evidence
+Captured during the 30 October 2026 assisted retest described in ../SPRINT_3_SESSION_RETEST.md.
+Original filenames are retained. These four files contain JPEG images despite their .png extension.
+
+SHA-256  Filename
+90af0bde5dff2b9ea439ce3f80d44e628cee93c4c447cffba4145c310f64b6bb  01-review-before-logout.png
+ec3c541a9a53c136cc9b3b3b2593ff1ceeed1f45042ae1baa1dea3029b86d173  02-checkout-blocked-after-other-tab-logout.png
+f3151780bce7db37cff15e614b076ffc98f78bc2919344271cad9dfb8c7089ec  03-cart-preserved-after-logout.png
+e7f6826a83eab1bd0d44462e3ffc6c833d9301cb46d952bb8b281093b7093a9b  04-test-cart-restored.png
