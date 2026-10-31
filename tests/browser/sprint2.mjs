@@ -19,7 +19,12 @@ const email=`sprint2-${Date.now()}@example.test`;
 async function check(id,name,fn){try{await fn();results.push({id,name,result:'Pass'});console.log('PASS',id,name);}catch(e){results.push({id,name,result:'Fail',actual:e.message});console.error('FAIL',id,e.message);throw e;}}
 async function visible(locator){await locator.waitFor({state:'visible',timeout:10000});}
 async function screenshot(name){await page.locator('.toast.visible').waitFor({state:'hidden'});await page.screenshot({path:fileURLToPath(new URL(name,out)),fullPage:true});}
-async function addItem(){await page.goto(base+'/#/products/everyday-tee');await page.getByRole('radio',{name:'M',exact:true}).check();await page.getByRole('button',{name:'Add to cart'}).click();await page.getByRole('link',{name:/Cart, \d+ items/}).click();}
+async function addItem(){
+  await page.goto(base+'/#/products/everyday-tee');
+  await page.getByRole('radio',{name:'M',exact:true}).check();
+  await page.getByRole('button',{name:'Add to cart'}).click();
+  await page.getByRole('link',{name:/^Cart, \d+ items?$/}).click();
+}
 async function delivery(){await page.getByLabel('Recipient name').fill('Demo Student');await page.getByLabel('Street address').fill('Example Street 12');await page.getByLabel('City',{exact:true}).fill('Berlin');await page.getByLabel('Postal code').fill('10115');await page.getByRole('checkbox',{name:/fictional details/}).check();await page.getByRole('button',{name:'Review demo order'}).click();await visible(page.getByRole('heading',{name:'Review your demo order'}));}
 let confirmation;
 try {
