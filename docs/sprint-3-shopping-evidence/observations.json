@@ -1,0 +1,209 @@
+[
+  {
+    "id": "Desktop search",
+    "actual": "18 styles, 0 styles and 1 style.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/products"
+  },
+  {
+    "id": "Desktop cart, one item",
+    "actual": "Tee M, €18 subtotal, €20.90 total and singular cart/subtotal labels.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/cart"
+  },
+  {
+    "id": "Desktop cart, two items",
+    "actual": "Two tees earned free delivery, cart and subtotal used the plural.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/cart"
+  },
+  {
+    "id": "Desktop registration",
+    "actual": "Fictional account created and returned to checkout.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Desktop login",
+    "actual": "Signed out, blocked at checkout, then signed in and returned to checkout with the same quantity.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Desktop delivery validation",
+    "actual": "Incomplete delivery details blocked review.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Desktop review",
+    "actual": "Correct quantity and €20.90 total shown.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Desktop decline",
+    "actual": "Decline message shown. Cart count and review were preserved.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Desktop success",
+    "actual": "Fictional order saved and cart emptied. Total €20.90.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/confirmation/WL-3D68BE1E-666E-4198-9736-8DC14B9231E4"
+  },
+  {
+    "id": "Desktop refresh",
+    "actual": "Confirmation survived reload at the same order reference.",
+    "client": 1265,
+    "h": 800,
+    "scroll": 1265,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/confirmation/WL-3D68BE1E-666E-4198-9736-8DC14B9231E4"
+  },
+  {
+    "id": "Desktop private confirmation",
+    "actual": "Saved confirmation required sign-in after logout.",
+    "client": 1280,
+    "h": 800,
+    "scroll": 1280,
+    "w": 1280,
+    "url": "http://127.0.0.1:4173/#/confirmation/WL-3D68BE1E-666E-4198-9736-8DC14B9231E4"
+  },
+  {
+    "id": "Mobile menu",
+    "actual": "Escape closed navigation and returned keyboard focus to the menu toggle.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/"
+  },
+  {
+    "id": "Mobile search",
+    "actual": "18 styles, 0 styles and 1 style.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/products"
+  },
+  {
+    "id": "Mobile cart, one item",
+    "actual": "Tee M, €18 subtotal, €20.90 total and singular cart/subtotal labels.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/cart"
+  },
+  {
+    "id": "Mobile cart, two items",
+    "actual": "Two tees earned free delivery, cart and subtotal used the plural.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/cart"
+  },
+  {
+    "id": "Mobile registration",
+    "actual": "Fictional account created and returned to checkout.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Mobile login",
+    "actual": "Signed out, blocked at checkout, then signed in and returned to checkout with the same quantity.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Mobile delivery validation",
+    "actual": "Incomplete delivery details blocked review.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Mobile review",
+    "actual": "Correct quantity and €36.00 total shown.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Mobile decline",
+    "actual": "Decline message shown. Cart count and review were preserved.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/checkout"
+  },
+  {
+    "id": "Mobile success",
+    "actual": "Fictional order saved and cart emptied. Total €36.00.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/confirmation/WL-57D9FD14-CDBB-4D3B-9398-1233F492B7B8"
+  },
+  {
+    "id": "Mobile refresh",
+    "actual": "Confirmation survived reload at the same order reference.",
+    "client": 375,
+    "h": 844,
+    "scroll": 375,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/confirmation/WL-57D9FD14-CDBB-4D3B-9398-1233F492B7B8"
+  },
+  {
+    "id": "Mobile private confirmation",
+    "actual": "Saved confirmation required sign-in after logout.",
+    "client": 390,
+    "h": 844,
+    "scroll": 390,
+    "w": 390,
+    "url": "http://127.0.0.1:4173/#/confirmation/WL-57D9FD14-CDBB-4D3B-9398-1233F492B7B8"
+  }
+]
