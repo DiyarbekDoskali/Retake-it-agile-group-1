@@ -71,7 +71,13 @@ Test account: xiaoshan.test@demo.com
 | 4. Check that the confirmation view belongs to the current demo account. Document that local browser storage is not production-grade authentication or security. | Complete checkout until confirmation page. | Confirm page shows current test user. Local storage only for demo, not production security. | Confirmation page displays current demo account. Local browser storage only for demo purpose, not production-ready security. | Pass | Demo security note: Local browser storage used for demo only. Not production ready. |
 | 5. Personally review the Sprint 2 acceptance criteria and record accepted / not accepted, reasons, and remaining priorities. | Review all criteria above. | Record all pass/fail status. | Reviewed all 6 criteria, recorded pass/fail results. | Pass | Remaining priority: Fix AC3 session validation defect. |
 | 6. Add evidence for your checks and prepare your own Product Owner presentation segment. | Capture screenshots and prepare presentation video. | All screenshots saved, video script ready. | All screenshots captured, presentation script finished. | Pass | |
-![Unauthorized checkout redirect](sprint-2-live-evidence/Wearlane_QA_Checkout_Unauthorized_Redirect.jpg)
-![Cart preserved after login](sprint-2-live-evidence/Wearlane_QA_Checkout_Cart_Preserved.jpg)
-![Session defect when submitting order](sprint-2-live-evidence/Wearlane_QA_Checkout_Session_Defect.jpg)
-![Order confirmation page](sprint-2-live-evidence/Wearlane_QA_Checkout_Confirmation_Page.jpg)
+![Unauthorized checkout redirect](sprint-2-live-evidence/Wearlane_QA_Checkout_Unauthorized_Redirect.jpg.png)
+![Cart preserved after login](sprint-2-live-evidence/Wearlane_QA_Checkout_Cart_Preserved.jpg.png)
+![Session defect when submitting order](sprint-2-live-evidence/Wearlane_QA_Checkout_Session_Defect.jpg.png)
+![Order confirmation page](sprint-2-live-evidence/Wearlane_QA_Checkout_Confirmation_Page.jpg.png)
+
+## Follow-up — 30 October 2026
+
+The four Sprint 2 screenshot links above have been corrected to match the uploaded filenames. Xiaoshan's submitted results, including the AC3 failure, are preserved.
+
+A separate [Sprint 3 cross-tab logout retest](SPRINT_3_SESSION_RETEST.md) did not reproduce AC3 on the current live deployment in two tabs sharing the same browser session. This is new assisted verification, not a replacement for Xiaoshan's report or Product Owner acceptance. The original browser setup and failure still need to be reconciled before closing the reported issue.
