@@ -186,8 +186,10 @@ Evidence: E4 – Two T-shirts with free delivery and final total.
 The following screenshots are attached to demonstrate the test results.
 
 
-### E1 – One T-shirt in Shopping Cart
-![E1](E1_One_Tee_Cart.png)
+### Screenshot 1 – One T-shirt in Shopping Cart
+
+![One T-shirt in Shopping Cart](E1_One_Tee_Cart.png)
+
 
 Screenshot showing:
 
@@ -197,8 +199,10 @@ Screenshot showing:
 * Subtotal: €18.00.
   
 
-### E2 – One T-shirt with Delivery
-![E2](E2_One_Tee_Delivery_Total.png)
+### Screenshot 2 – One T-shirt with Delivery
+
+![One T-shirt with Delivery](E2_One_Tee_Delivery_Total.png)
+
 
 Screenshot showing:
 
@@ -207,8 +211,10 @@ Screenshot showing:
 * Final total: €20.90.
 
 
-### E3 – Two T-shirts in Shopping Cart
-![E3](E3_Two_Tees_Cart.png)
+### Screenshot 3 – Two T-shirts in Shopping Cart
+
+![Two T-shirts in Shopping Cart](E3_Two_Tees_Cart.png)
+
 
 Screenshot showing:
 
@@ -217,8 +223,10 @@ Screenshot showing:
 * Subtotal: €38.00.
 
 
-### E4 – Free Delivery for Two T-shirts
-![E4](E4_Free_Delivery_Total.png)
+### Screenshot 4 – Free Delivery for Two T-shirts
+
+![Free Delivery for Two T-shirts](E4_Free_Delivery_Total.png)
+
 
 Screenshot showing:
 
