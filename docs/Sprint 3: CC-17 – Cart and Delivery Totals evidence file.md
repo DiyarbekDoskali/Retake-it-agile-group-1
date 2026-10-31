@@ -24,7 +24,7 @@ The tests focus on the Everyday heavyweight tee and check that the delivery fee 
 The expected results are:
 
 * One T-shirt costs €18.00, with €2.90 delivery, making a total of €20.90.
-* Two T-shirts cost €36.00, with free delivery, making a total of €36.00.
+* Two T-shirts cost €38.00, with free delivery, making a total of €38.00.
   
 
 ## 2. SCOPE OF TESTING
@@ -36,8 +36,8 @@ The following functionalities are included:
 * Checking the subtotal for one item.
 * Verifying the €2.90 delivery charge for one item.
 * Increasing the quantity to two items.
-* Verifying the subtotal of €36.00.
-* Checking that delivery becomes free when the subtotal reaches €36.00.
+* Verifying the subtotal of €38.00.
+* Checking that delivery becomes free when the subtotal reaches €38.00.
 * Verifying the final checkout total.
 
 
@@ -126,12 +126,12 @@ Steps:
 Expected Result:
 
 * Quantity is 2.
-* Each T-shirt costs €18.00.
-* Subtotal is €36.00.
+* Each T-shirt costs €18.00 and €20.00
+* Subtotal is €38.00.
 
 Calculation:
 
-€18.00 × 2 = €36.00.
+€18.00 +  €20.00 = €38.00.
 
 Actual Result: To be completed after testing.
 
@@ -154,13 +154,13 @@ Steps:
 
 Expected Result:
 
-* Subtotal: €36.00.
+* Subtotal: €38.00.
 * Delivery charge: FREE (€0.00).
-* Final total: €36.00.
+* Final total: €38.00.
 
 Calculation:
 
-€36.00 + €0.00 = €36.00.
+€38.00 + €0.00 = €38.00.
 
 Actual Result: To be completed after testing.
 
@@ -185,7 +185,9 @@ Evidence: E4 – Two T-shirts with free delivery and final total.
 
 The following screenshots are attached to demonstrate the test results.
 
-E1 – One T-shirt in the Shopping Cart
+
+### E1 – One T-shirt in Shopping Cart
+![E1](E1_One_Tee_Cart.png)
 
 Screenshot showing:
 
@@ -193,8 +195,10 @@ Screenshot showing:
 * Quantity: 1.
 * Product price: €18.00.
 * Subtotal: €18.00.
+  
 
-E2 – One T-shirt with Delivery Charge
+### E2 – One T-shirt with Delivery
+![E2](E2_One_Tee_Delivery_Total.png)
 
 Screenshot showing:
 
@@ -202,21 +206,25 @@ Screenshot showing:
 * Delivery: €2.90.
 * Final total: €20.90.
 
-E3 – Two T-shirts in the Shopping Cart
+
+### E3 – Two T-shirts in Shopping Cart
+![E3](E3_Two_Tees_Cart.png)
 
 Screenshot showing:
 
 * Everyday heavyweight tee.
 * Quantity: 2.
-* Subtotal: €36.00.
+* Subtotal: €38.00.
 
-E4 – Free Delivery for Two T-shirts
+
+### E4 – Free Delivery for Two T-shirts
+![E4](E4_Free_Delivery_Total.png)
 
 Screenshot showing:
 
-* Subtotal: €36.00.
+* Subtotal: €38.00.
 * Delivery: FREE (€0.00).
-* Final total: €36.00.
+* Final total: €38.00.
 
 
 ## 7. EXPECTED CALCULATION SUMMARY
@@ -224,7 +232,7 @@ Screenshot showing:
 | Quantity | Product | Unit Price | Subtotal | Delivery Charge | Final Total |
 |---|---|---:|---:|---:|---:|
 | 1 | Everyday heavyweight tee | €18.00 | €18.00 | €2.90 | €20.90 |
-| 2 | Everyday heavyweight tee | €18.00 | €36.00 | FREE (€0.00) | €36.00 |
+| 2 | Everyday heavyweight tee | €18.00 | €38.00 | FREE (€0.00) | €38.00 |
 
 
 ## 8. CONCLUSION
