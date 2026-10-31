@@ -17,7 +17,7 @@ function OrderSummary({snapshot}) {
     <ul className="checkout-items">{snapshot.items.map(item => <li key={`${item.id}:${item.size}`}>
       <Art product={findProduct(item.id)}/><div><strong>{item.name}</strong><span>Size {item.size} · Qty {item.quantity}</span></div><b>{money(item.lineTotal)}</b>
     </li>)}</ul>
-    <dl><div><dt>Subtotal ({snapshot.count} items)</dt><dd>{money(snapshot.subtotal)}</dd></div>
+    <dl><div><dt>Subtotal ({snapshot.count} {snapshot.count === 1 ? 'item' : 'items'})</dt><dd>{money(snapshot.subtotal)}</dd></div>
       <div><dt>Demo delivery</dt><dd>{snapshot.shipping ? money(snapshot.shipping) : 'Free'}</dd></div>
       <div className="total"><dt>Total</dt><dd>{money(snapshot.total)}</dd></div></dl>
     <p className="muted">Delivery is €2.90, free from €35. Demo prices only. No real charge.</p>
